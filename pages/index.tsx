@@ -43,7 +43,7 @@ const Home: NextPage<HomeProps> = (props) => {
           <Text fontWeight={'medium'}>
             Dibuat oleh{' '}
             <chakra.a
-              href={'https://github/Refansa'}
+              href={'https://github.com/Refansa'}
               color={useColorModeValue('cyan.600', 'cyan.200')}
             >
               Refansa
@@ -57,7 +57,7 @@ const Home: NextPage<HomeProps> = (props) => {
               as={'a'}
               size={'sm'}
               leftIcon={<FaGithub />}
-              href={'https://github/Refansa/rmbg'}
+              href={'https://github.com/Refansa/rmbg'}
             >
               Github
             </Button>

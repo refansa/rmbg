@@ -1,9 +1,9 @@
 import {
+  Text,
+  Stack,
   Button,
   chakra,
   Container,
-  Stack,
-  Text,
   useColorModeValue,
 } from '@chakra-ui/react';
 
@@ -49,7 +49,7 @@ const Home: NextPage<HomeProps> = (props) => {
               Refansa
             </chakra.a>
           </Text>
-          <Stack direction={'row'} align={'center'}>
+          <Stack direction={['column', 'row']} align={'center'}>
             <Text fontWeight={'medium'}>
               Sumber kode tersedia secara terbuka di{' '}
             </Text>

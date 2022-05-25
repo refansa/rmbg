@@ -3,15 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "./scripts/dev.sh",
+    "deploy": "./scripts/deploy.sh",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/black-ops-one": "^4.5.7",
+    "@fontsource/poppins": "^4.5.8",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.3.3",
+    "imtool": "^1.1.5",
     "next": "12.1.6",
+    "p-retry": "^5.1.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-dropzone": "^14.2.1",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@types/node": "17.0.31",

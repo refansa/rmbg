@@ -1,13 +1,10 @@
 import {
   Text,
   Stack,
-  Button,
   chakra,
   Container,
   useColorModeValue,
 } from '@chakra-ui/react';
-
-import { FaGithub } from 'react-icons/fa';
 
 import Jumbotron from '../components/Jumbotron';
 import Dropzone from '../components/Dropzone';
@@ -49,19 +46,6 @@ const Home: NextPage<HomeProps> = (props) => {
               Refansa
             </chakra.a>
           </Text>
-          <Stack direction={['column', 'row']} align={'center'}>
-            <Text fontWeight={'medium'}>
-              Sumber kode tersedia secara terbuka di{' '}
-            </Text>
-            <Button
-              as={'a'}
-              size={'sm'}
-              leftIcon={<FaGithub />}
-              href={'https://github.com/Refansa/rmbg'}
-            >
-              Github
-            </Button>
-          </Stack>
         </Stack>
       </Container>
     </>
